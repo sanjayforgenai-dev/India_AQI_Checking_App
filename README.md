@@ -1,5 +1,5 @@
 # India_AQI_Checking_App
-This App Helps to check  Air Quality Index of your Area in India based on Pincode input
+This App Helps to check  Air Quality Index of your Area in India based on Pincode as input
 # 🌿 India AQI Expert Dashboard
 
 An AI-powered environmental dashboard that provides Air Quality Index (AQI) insights for any Indian location using its **PINCODE**. The app combines real-world geocoding with Google's Gemini AI to offer health recommendations and local environmental analysis.
@@ -34,5 +34,5 @@ Before running this project, you will need:
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/sanjayforgenai-dev/India_AQI_Checking_App/blob/main.git](https://github.com/your-username/india-aqi-dashboard.git)
+   git clone [https://github.com/sanjayforgenai-dev/India_AQI_Checking_App/blob/main.git]
    cd india-aqi-dashboard
