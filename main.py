@@ -88,7 +88,7 @@ if find_button:
                 st.map(map_data, zoom=12)
             
             with col1:
-                st.success(f"location : {location.address}")
+                st.success(f"location: {location.address}")
                 
                 # AI Analysis
                 gemini_model = ChatGoogleGenerativeAI(model="gemini-2.5-flash")
@@ -96,7 +96,7 @@ if find_button:
                 aqi_prompt = PromptTemplate(template=aqi_template, input_variables=['pincode', 'location'])
                 aqi_chain = aqi_prompt | gemini_model
                 
-                response = aqi_chain.invoke({"pincode": pincode, "location ": location.address})
+                response = aqi_chain.invoke({"pincode": pincode, "location": location.address})
                 
                 st.markdown("### 📊 AI Analysis")
                 st.info(response.content)
