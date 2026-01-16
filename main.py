@@ -91,12 +91,12 @@ if find_button:
                 st.success(f"Location: {location.address}")
                 
                 # AI Analysis
-                gemini_model = ChatGoogleGenerativeAI(model="gemini-1.5-flash")
+                gemini_model = ChatGoogleGenerativeAI(model="gemini-2.5-flash")
                 aqi_template = "As an expert, analyze the typical AQI for PINCODE {pincode} in {location}."
                 aqi_prompt = PromptTemplate(template=aqi_template, input_variables=['pincode', 'location'])
                 aqi_chain = aqi_prompt | gemini_model
                 
-                response = aqi_chain.invoke({"pincode": pincode, "location": location.address})
+                response = aqi_chain.invoke({"pincode": pincode, "Location": location.address})
                 
                 st.markdown("### 📊 AI Analysis")
                 st.info(response.content)
