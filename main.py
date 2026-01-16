@@ -66,7 +66,7 @@ with st.sidebar:
     theme_choice = st.radio("Choose Dashboard Mode", ("Environmental (Default)", "High Contrast"))
     st.info("This app uses AI to provide environmental insights based on regional data.")
 
-st.header("🌿 Indian Air Quality Dashboard")
+st.header("🌿 PINCODE Based Air Quality Index Report Generator App")
 st.markdown("---")
 
 # Layout columns
