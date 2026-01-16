@@ -34,5 +34,5 @@ Before running this project, you will need:
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/your-username/india-aqi-dashboard.git](https://github.com/your-username/india-aqi-dashboard.git)
+   git clone [https://github.com/sanjayforgenai-dev/India_AQI_Checking_App/blob/main.git](https://github.com/your-username/india-aqi-dashboard.git)
    cd india-aqi-dashboard
